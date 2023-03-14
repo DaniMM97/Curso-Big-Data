@@ -1,6 +1,6 @@
 # Curso Big Data
 
-Documentos relativos al Curso de Big Data realizado.
+Documentos realizados durante el Curso de Big Data, principalmente el lenguaje utilizado es Python (en notebooks de Google Colab) y SQL
 
 Semana 1 - Introducción al Business Intelligence y Advanced Analytics
 
