@@ -1,0 +1,47 @@
+
+# DIAPOSITIVA 2DA DE UNION
+
+log = sc.parallelize(['E: e21', 'I: i11', 'W: w12', 'I: i11', 'W: w13', 'E: e45'])
+
+info = log.filter(lambda elemento: elemento[0]=='I')
+error = log.filter(lambda elemento: elemento[0]=='E')
+
+inferr = info.union(error)
+
+inferr.collect()
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+# DIAPOSITIVA EJERCICIO DE JOIN
+
+rdd1 = sc.parallelize([('Nike',51805),('Puma',42329),('Adidas',63542), ('Puma',27923),('Nike',75335),('Puma',45102),('Adidas',49583), ('Puma',37869),('Adidas',54201), ('Puma',31582),('Nike',62747)])
+
+rdd2 = sc.parallelize([('Nike',224589),('Adidas',219123),('Puma',166524)])
+
+
+
+
+rdd1 = sc.parallelize([('Nike',51805),('Puma',42329),('Novedad',18536),
+('Adidas',63542),('Puma',27923),('Nike',75335),('Puma',45102),
+('Adidas',49583), ('Puma',37869),('Novedad',27196), ('Adidas',54201), ('Puma',31582),('Nike',62747),('Novedad',25409)])
+
+rdd2 = sc.parallelize([('Nike',224589),('Adidas',219123),('Puma',166524)])
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+# DIAPOSITIVA CREAR DATAFRAME (I)
+
+datos = [(None,"Smith   ","36636","M",3500),
+         ("Michael","   Rose","40288","M",4750),
+         ("Robert","Williams","42114","M",None),
+         ("Maria","    Jones    ","39192","F",4000)
+        ]
+
