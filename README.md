@@ -12,4 +12,4 @@ Semana 4 - Python (Data Fundamentals)
 
 Semana 5 - Data Science y Machine Learning
 
-Semana 6 - Arquitectura Cloud y Big Data
+Semana 6 - Arquitectura Cloud y Big Data (PySpark)
